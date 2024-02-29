@@ -1,0 +1,17 @@
+/out/production/COMP6231/User/User.class
+/out/production/COMP6231/DataModel/UserModel.class
+/out/production/COMP6231/DataModel/AppointmentModel.class
+/out/production/COMP6231/Interface/AppointmentManagementInterface.class
+/out/production/COMP6231/Logger/Logger.class
+/out/production/COMP6231/Server/MontrealServer.class
+/out/production/COMP6231/Server/QuebecServer.class
+/out/production/COMP6231/Server/SherbrookeServer.class
+/out/production/COMP6231/ServerInterface/AppointmentManagement.class
+/out/
+/~WRL3732.tmp
+/src/orb.db
+/.idea
+/.settings
+/bin
+/.classpath
+/.project
