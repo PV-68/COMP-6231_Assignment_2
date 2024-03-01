@@ -16,9 +16,9 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class AppointmentManagement extends ServerObjectInterfacePOA {
     private ORB orb;
-    public static final int Montreal_Server_Port = 8888;
-    public static final int Quebec_Server_Port = 7777;
-    public static final int Sherbrooke_Server_Port = 6666;
+    public static final int Montreal_Server_Port = 1111;
+    public static final int Quebec_Server_Port = 2222;
+    public static final int Sherbrooke_Server_Port = 3333;
     public static final String APPOINTMENT_SERVER_SHERBROOKE = "SHERBROOKE";
     public static final String APPOINTMENT_SERVER_QUEBEC = "QUEBEC";
     public static final String APPOINTMENT_SERVER_MONTREAL = "MONTREAL";

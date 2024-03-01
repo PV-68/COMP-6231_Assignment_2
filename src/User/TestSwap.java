@@ -6,7 +6,7 @@ import org.omg.CORBA.ORB;
 import org.omg.CosNaming.NamingContextExt;
 import org.omg.CosNaming.NamingContextExtHelper;
 
-public class SwapTestCases {
+public class TestSwap {
     public static final String PHYSICIAN = "Physician";
     public static final String SURGEON = "Surgeon";
     public static final String DENTAL = "Dental";

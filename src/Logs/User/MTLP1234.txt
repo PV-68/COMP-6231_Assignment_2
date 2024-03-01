@@ -6,3 +6,5 @@ DATE: 2024-02-29 01:46:05 PM  attempting to swapAppointment
 DATE: 2024-02-29 01:46:05 PM User Action:  swapAppointment | RequestParameters:  oldAppointmentID: MTLA090620 oldAppointmentType: Physician newAppointmentID: MTLA080620 newAppointmentType: Dental  | Server Response: Success: Appointment MTLA090620 swapped with MTLA080620
 DATE: 2024-02-29 01:53:25 PM  attempting ORB shutdown
 DATE: 2024-02-29 01:53:25 PM  shutdown
+DATE: 2024-02-29 04:20:22 PM  login attempt
+DATE: 2024-02-29 04:20:23 PM  Patient Login successful
