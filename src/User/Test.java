@@ -75,29 +75,29 @@ public class Test {
 
 		System.out.println("Test2");
 		System.out.println("QUEP1234 bookAppointment:");
-		System.out.println(QUEobj.bookAppointment("QUEP1234", "SHEE110620", PHYSICIAN));
+		System.out.println(QUEobj.bookAppointment("QUEP1234", "SHEE110624", PHYSICIAN));
 		System.out.println("QUEP1234 bookAppointment:");
-		System.out.println(QUEobj.bookAppointment("QUEP1234", "MTLE230620", SURGEON));
+		System.out.println(QUEobj.bookAppointment("QUEP1234", "MTLE230624", SURGEON));
 		System.out.println("---------------------------------------------------------------");
 
 		System.out.println("Test3");
 		System.out.println("QUEP1234 cancelAppointment:");
-		System.out.println(QUEobj.cancelAppointment("QUEP1234", "MTLA090620", PHYSICIAN));
+		System.out.println(QUEobj.cancelAppointment("QUEP1234", "MTLA090624", PHYSICIAN));
 		System.out.println("---------------------------------------------------------------");
 
 		System.out.println("Test4");
-		System.out.println("SHEC2345 bookAppointment:");
-		System.out.println(SHEobj.bookAppointment("SHEC2345", "SHEE080620", PHYSICIAN));
+		System.out.println("SHEP2345 bookAppointment:");
+		System.out.println(SHEobj.bookAppointment("SHEP2345", "SHEE080624", PHYSICIAN));
 		System.out.println("---------------------------------------------------------------");
 
 		System.out.println("Test5");
 		System.out.println("Montreal Admin removeAppointment:");
-		System.out.println(MTLobj.removeAppointment("MTLA080620", DENTAL));
+		System.out.println(MTLobj.removeAppointment("MTLA080624", DENTAL));
 		System.out.println("---------------------------------------------------------------");
 
 		System.out.println("Test6");
-		System.out.println("SHEC2345 Booking Schedule:");
-		System.out.println(SHEobj.getBookingSchedule("SHEC2345"));
+		System.out.println("SHEP2345 Booking Schedule:");
+		System.out.println(SHEobj.getBookingSchedule("SHEP2345"));
 		System.out.println("QUEP1234 Booking Schedule:");
 		System.out.println(QUEobj.getBookingSchedule("QUEP1234"));
 		System.out.println("---------------------------------------------------------------");

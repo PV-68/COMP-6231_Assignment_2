@@ -524,3 +524,661 @@ DATE: 2024-02-29 04:55:55 PM UserID: Appointment Admin | RequestType:  UDP reply
  (QUEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
 ---------------------------------------------------------------
 ;
+DATE: 2024-03-03 10:52:11 AM  Server is Up & Running
+DATE: 2024-03-03 10:52:11 AM  UDP Server Started at port 2222
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician bookingCapacity 1  | ServerResponse: Success: Appointment QUEA150624 added successfully
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: QUEA160624 appointmentType: Surgeon bookingCapacity 1  | ServerResponse: Success: Appointment QUEA160624 added successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (MTLA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server Physician:
+ (SHEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE150624) in the Evening of 15/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+ (QUEA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[0] ||  (QUEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] || 
+---------------------------------------------------------------
+MONTREAL Server Physician:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (MTLA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+SHERBROOKE Server Physician:
+ (SHEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE150624) in the Evening of 15/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: MONTREAL Server Dental:
+ (MTLA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[1] ||  (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] ||  (MTLA170624) in the Afternoon of 17/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: SHERBROOKE Server Dental:
+ (SHEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse: QUEBEC Server Dental:
+ (QUEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+MONTREAL Server Dental:
+ (MTLA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[1] ||  (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] ||  (MTLA170624) in the Afternoon of 17/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+SHERBROOKE Server Dental:
+ (SHEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: MONTREAL Server Surgeon:
+ (MTLE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: SHERBROOKE Server Surgeon:
+ (SHEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (SHEE160624) in the Evening of 16/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse: QUEBEC Server Surgeon:
+ (QUEA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 1[1] ||  (QUEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] || 
+---------------------------------------------------------------
+MONTREAL Server Surgeon:
+ (MTLE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+---------------------------------------------------------------
+SHERBROOKE Server Surgeon:
+ (SHEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (SHEE160624) in the Evening of 16/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (MTLA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server Physician:
+ (SHEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE150624) in the Evening of 15/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+ (QUEA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[0] ||  (QUEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] || 
+---------------------------------------------------------------
+MONTREAL Server Physician:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (MTLA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+SHERBROOKE Server Physician:
+ (SHEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE150624) in the Evening of 15/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: MONTREAL Server Surgeon:
+ (MTLE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: SHERBROOKE Server Surgeon:
+ (SHEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (SHEE160624) in the Evening of 16/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse: QUEBEC Server Surgeon:
+ (QUEA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 1[1] ||  (QUEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] || 
+---------------------------------------------------------------
+MONTREAL Server Surgeon:
+ (MTLE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+---------------------------------------------------------------
+SHERBROOKE Server Surgeon:
+ (SHEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (SHEE160624) in the Evening of 16/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: MONTREAL Server Dental:
+ (MTLA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[1] ||  (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] ||  (MTLA170624) in the Afternoon of 17/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: SHERBROOKE Server Dental:
+ (SHEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse: QUEBEC Server Dental:
+ (QUEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+MONTREAL Server Dental:
+ (MTLA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[1] ||  (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] ||  (MTLA170624) in the Afternoon of 17/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+SHERBROOKE Server Dental:
+ (SHEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE110620 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE110620 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE110620 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE110620 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE110620 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLE230620 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLE230620 appointmentType: Surgeon  | ServerResponse: Success: Appointment MTLE230620 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLE230620 appointmentType: Surgeon  | ServerResponse: Success: Appointment MTLE230620 Booked Successfully
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: MTLA090620 appointmentType: Physician  | ServerResponse: Failed: You QUEP1234 Are Not Registered in MTLA090620
+DATE: 2024-03-03 10:52:19 AM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+SHEE150624 ||MTLA160624 ||QUEA150624 ||SHEE110620 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||MTLE230620 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+ (QUEA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[0] ||  (QUEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] || 
+---------------------------------------------------------------
+;
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse:  ...
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: QUEBEC Server Surgeon:
+ (QUEA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 1[1] ||  (QUEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] || 
+---------------------------------------------------------------
+;
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse:  ...
+DATE: 2024-03-03 10:52:19 AM UserID: Appointment Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: QUEBEC Server Dental:
+ (QUEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+;
+DATE: 2024-03-03 05:22:01 PM  Server is Up & Running
+DATE: 2024-03-03 05:22:01 PM  UDP Server Started at port 2222
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician bookingCapacity 1  | ServerResponse: Success: Appointment QUEA150624 added successfully
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: QUEA160624 appointmentType: Surgeon bookingCapacity 1  | ServerResponse: Success: Appointment QUEA160624 added successfully
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Booked Successfully
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Booked Successfully
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Booked Successfully
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (MTLA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server Physician:
+ (SHEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE150624) in the Evening of 15/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+ (QUEA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[0] ||  (QUEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] || 
+---------------------------------------------------------------
+MONTREAL Server Physician:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (MTLA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+SHERBROOKE Server Physician:
+ (SHEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE150624) in the Evening of 15/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: MONTREAL Server Dental:
+ (MTLA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[1] ||  (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] ||  (MTLA170624) in the Afternoon of 17/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: SHERBROOKE Server Dental:
+ (SHEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse: QUEBEC Server Dental:
+ (QUEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+MONTREAL Server Dental:
+ (MTLA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[1] ||  (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] ||  (MTLA170624) in the Afternoon of 17/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+SHERBROOKE Server Dental:
+ (SHEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: MONTREAL Server Surgeon:
+ (MTLE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: SHERBROOKE Server Surgeon:
+ (SHEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (SHEE160624) in the Evening of 16/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse: QUEBEC Server Surgeon:
+ (QUEA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 1[1] ||  (QUEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] || 
+---------------------------------------------------------------
+MONTREAL Server Surgeon:
+ (MTLE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+---------------------------------------------------------------
+SHERBROOKE Server Surgeon:
+ (SHEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (SHEE160624) in the Evening of 16/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (MTLA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server Physician:
+ (SHEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE150624) in the Evening of 15/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+ (QUEA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[0] ||  (QUEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] || 
+---------------------------------------------------------------
+MONTREAL Server Physician:
+ (MTLA090620) in the Afternoon of 09/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (MTLA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+SHERBROOKE Server Physician:
+ (SHEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] ||  (SHEE080620) in the Evening of 08/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE110620) in the Evening of 11/06/2020 Total[Remaining] Capacity: 1[1] ||  (SHEE150624) in the Evening of 15/06/2024 Total[Remaining] Capacity: 2[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: MONTREAL Server Surgeon:
+ (MTLE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: SHERBROOKE Server Surgeon:
+ (SHEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (SHEE160624) in the Evening of 16/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse: QUEBEC Server Surgeon:
+ (QUEA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 1[1] ||  (QUEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] || 
+---------------------------------------------------------------
+MONTREAL Server Surgeon:
+ (MTLE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (MTLE230620) in the Evening of 23/06/2020 Total[Remaining] Capacity: 1[1] || 
+---------------------------------------------------------------
+SHERBROOKE Server Surgeon:
+ (SHEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] ||  (SHEE160624) in the Evening of 16/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: MONTREAL Server Dental:
+ (MTLA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[1] ||  (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] ||  (MTLA170624) in the Afternoon of 17/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: SHERBROOKE Server Dental:
+ (SHEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  CORBA listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse: QUEBEC Server Dental:
+ (QUEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+MONTREAL Server Dental:
+ (MTLA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[1] ||  (MTLA080620) in the Afternoon of 08/06/2020 Total[Remaining] Capacity: 2[2] ||  (MTLA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] ||  (MTLA150620) in the Afternoon of 15/06/2020 Total[Remaining] Capacity: 12[12] ||  (MTLA170624) in the Afternoon of 17/06/2024 Total[Remaining] Capacity: 1[0] || 
+---------------------------------------------------------------
+SHERBROOKE Server Dental:
+ (SHEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE110624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE110624 appointmentType: Physician  | ServerResponse: Failed: Appointment SHEE110624 Does not exists
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE110624 appointmentType: Physician  | ServerResponse: Failed: Appointment SHEE110624 Does not exists
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLE230624 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLE230624 appointmentType: Surgeon  | ServerResponse: Failed: Appointment MTLE230624 Does not exists
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLE230624 appointmentType: Surgeon  | ServerResponse: Failed: Appointment MTLE230624 Does not exists
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: MTLA090624 appointmentType: Physician  | ServerResponse: Failed: You QUEP1234 Are Not Registered in MTLA090624
+DATE: 2024-03-03 05:22:16 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+SHEE150624 ||MTLA160624 ||QUEA150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: QUEBEC Server Physician:
+ (QUEA150624) in the Afternoon of 15/06/2024 Total[Remaining] Capacity: 1[0] ||  (QUEM010124) in the Morning of 01/01/2024 Total[Remaining] Capacity: 5[4] || 
+---------------------------------------------------------------
+;
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Surgeon  | ServerResponse:  ...
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Surgeon  | ServerResponse: QUEBEC Server Surgeon:
+ (QUEA160624) in the Afternoon of 16/06/2024 Total[Remaining] Capacity: 1[1] ||  (QUEE030324) in the Evening of 03/03/2024 Total[Remaining] Capacity: 20[19] || 
+---------------------------------------------------------------
+;
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Dental  | ServerResponse:  ...
+DATE: 2024-03-03 05:22:16 PM UserID: Appointment Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Dental  | ServerResponse: QUEBEC Server Dental:
+ (QUEA020224) in the Afternoon of 02/02/2024 Total[Remaining] Capacity: 15[14] || 
+---------------------------------------------------------------
+;
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA170624 appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA170624 appointmentType: Dental  | ServerResponse: Failed: Appointment MTLA170624 is Full
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA170624 appointmentType: Dental  | ServerResponse: Failed: Appointment MTLA170624 is Full
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: SHEE150624 oldAppointmentType: Physician newAppointmentID: MTLA170624 newAppointmentType: Dental  | ServerResponse: Failed: Your newAppointment MTLA170624 Could not be Booked reason: Failed: Appointment MTLA170624 is Full And your old appointment Rolling back: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA121212 oldAppointmentType: Physician newAppointmentID: MTLA150624 newAppointmentType: Dental  | ServerResponse: Failed: You QUEP1234 Are Not Registered in QUEA121212
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA121212 appointmentType: Physician  | ServerResponse: Failed: Appointment QUEA121212 Does not exists
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: SHEE160624 oldAppointmentType: Surgeon newAppointmentID: QUEA121212 newAppointmentType: Physician  | ServerResponse: Failed: on Both newAppointment QUEA121212 Booking reason: Failed: Appointment QUEA121212 Does not exists and oldAppointment SHEE160624 Canceling reason: Failed: did not send cancel request for your oldAppointment SHEE160624
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment QUEA160624 Booked Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA150624 oldAppointmentType: Physician newAppointmentID: QUEA160624 newAppointmentType: Surgeon  | ServerResponse: Success: Appointment QUEA150624 swapped with QUEA160624
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||QUEA160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment QUEA160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Booked Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA160624 oldAppointmentType: Surgeon newAppointmentID: QUEA150624 newAppointmentType: Physician  | ServerResponse: Success: Appointment QUEA160624 swapped with QUEA150624
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||SHEE150624 ||QUEA150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:26 PM UserID: Appointment Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician bookingCapacity 1  | ServerResponse: Success: Appointment QUEA160724 added successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Booked Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA150624 oldAppointmentType: Physician newAppointmentID: QUEA160724 newAppointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 swapped with QUEA160724
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||SHEE150624 ||QUEA160724 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Booked Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA160724 oldAppointmentType: Physician newAppointmentID: QUEA150624 newAppointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 swapped with QUEA150624
+DATE: 2024-03-03 05:22:26 PM UserID: Appointment Admin | RequestType:  CORBA removeAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Removed Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||SHEE150624 ||QUEA150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment QUEA160624 Booked Successfully
+DATE: 2024-03-03 05:22:26 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: MTLA160624 oldAppointmentType: Physician newAppointmentID: QUEA160624 newAppointmentType: Surgeon  | ServerResponse: Success: Appointment MTLA160624 swapped with QUEA160624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+SHEE150624 ||QUEA150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||QUEA160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment QUEA160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA160624 oldAppointmentType: Surgeon newAppointmentID: MTLA160624 newAppointmentType: Physician  | ServerResponse: Success: Appointment QUEA160624 swapped with MTLA160624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+SHEE150624 ||QUEA150624 ||MTLA160624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: Appointment Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician bookingCapacity 1  | ServerResponse: Success: Appointment QUEA160724 added successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: MTLA160624 oldAppointmentType: Physician newAppointmentID: QUEA160724 newAppointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 swapped with QUEA160724
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+SHEE150624 ||QUEA150624 ||QUEA160724 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA160724 oldAppointmentType: Physician newAppointmentID: MTLA160624 newAppointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 swapped with MTLA160624
+DATE: 2024-03-03 05:22:27 PM UserID: Appointment Admin | RequestType:  CORBA removeAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Removed Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+SHEE150624 ||QUEA150624 ||MTLA160624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Failed: You Cannot Book Appointment in Other Servers For This Week(Max Weekly Limit = 3)
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA150624 oldAppointmentType: Physician newAppointmentID: MTLA150624 newAppointmentType: Dental  | ServerResponse: Failed: Your newAppointment MTLA150624 Could not be Booked reason: Failed: You Cannot Book Appointment in Other Servers For This Week(Max Weekly Limit = 3) And your old appointment Rolling back: Success: Appointment QUEA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+SHEE150624 ||MTLA160624 ||QUEA150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA150624 oldAppointmentType: Physician newAppointmentID: MTLA150624 newAppointmentType: Dental  | ServerResponse: Success: Appointment QUEA150624 swapped with MTLA150624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+MTLA150624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA150624 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: MTLA150624 oldAppointmentType: Dental newAppointmentID: QUEA150624 newAppointmentType: Physician  | ServerResponse: Success: Appointment MTLA150624 swapped with QUEA150624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE150624 appointmentType: Physician  | ServerResponse: Success: Appointment SHEE150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: Appointment Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician bookingCapacity 1  | ServerResponse: Success: Appointment QUEA160724 added successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Failed: You Cannot Book Appointment in Other Servers For This Week(Max Weekly Limit = 3)
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA160724 oldAppointmentType: Physician newAppointmentID: MTLA150624 newAppointmentType: Dental  | ServerResponse: Failed: on Both newAppointment MTLA150624 Booking reason: Failed: You Cannot Book Appointment in Other Servers For This Week(Max Weekly Limit = 3) and oldAppointment QUEA160724 Canceling reason: Failed: did not send cancel request for your oldAppointment QUEA160724
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||QUEA160724 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: Appointment Admin | RequestType:  CORBA removeAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Physician  | ServerResponse: Success: Appointment QUEA160724 Removed Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Surgeon  | ServerResponse: Failed: Appointment QUEA160724 Does not exists
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA150624 oldAppointmentType: Physician newAppointmentID: QUEA160724 newAppointmentType: Surgeon  | ServerResponse: Failed: on Both newAppointment QUEA160724 Booking reason: Failed: Appointment QUEA160724 Does not exists and oldAppointment QUEA150624 Canceling reason: Failed: did not send cancel request for your oldAppointment QUEA150624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA160724 oldAppointmentType: Surgeon newAppointmentID: QUEA150624 newAppointmentType: Physician  | ServerResponse: Failed: You QUEP1234 Are Not Registered in QUEA160724
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: SHEE160624 oldAppointmentType: Surgeon newAppointmentID: MTLA150624 newAppointmentType: Dental  | ServerResponse: Success: Appointment SHEE160624 swapped with MTLA150624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+
+---------------------------------------------------------------
+Dental:
+MTLA150624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: MTLA150624 oldAppointmentType: Dental newAppointmentID: SHEE160624 newAppointmentType: Surgeon  | ServerResponse: Success: Appointment MTLA150624 swapped with SHEE160624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA160624 ||QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: SHEE160624 oldAppointmentType: Surgeon newAppointmentID: MTLA150624 newAppointmentType: Dental  | ServerResponse: Success: Appointment SHEE160624 swapped with MTLA150624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+QUEA150624 ||SHEE150624 ||
+---------------------------------------------------------------
+Surgeon:
+
+---------------------------------------------------------------
+Dental:
+MTLA150624 ||
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEE160624 appointmentType: Surgeon  | ServerResponse: Success: Appointment SHEE160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent cancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedcancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: MTLA150624 appointmentType: Dental  | ServerResponse: Success: Appointment MTLA150624 Canceled for QUEP1234
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: MTLA150624 oldAppointmentType: Dental newAppointmentID: SHEE160624 newAppointmentType: Surgeon  | ServerResponse: Success: Appointment MTLA150624 swapped with SHEE160624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP request sent bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  UDP reply receivedbookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: MTLA160624 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA160624 Booked Successfully
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+QUEA150624 ||SHEE150624 ||MTLA160624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Surgeon  | ServerResponse: Failed: Appointment QUEA160724 Does not exists
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA160724 oldAppointmentType: Surgeon newAppointmentID: MTLA150624 newAppointmentType: Dental  | ServerResponse: Failed: You QUEP1234 Are Not Registered in QUEA160724
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+QUEA150624 ||SHEE150624 ||MTLA160624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA cancelAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Surgeon  | ServerResponse: Failed: You QUEP1234 Are Not Registered in QUEA160724
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: QUEA160724 appointmentType: Surgeon  | ServerResponse: Failed: Appointment QUEA160724 Does not exists
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: SHEE160624 oldAppointmentType: Surgeon newAppointmentID: QUEA160724 newAppointmentType: Surgeon  | ServerResponse: Failed: on Both newAppointment QUEA160724 Booking reason: Failed: Appointment QUEA160724 Does not exists and oldAppointment SHEE160624 Canceling reason: Failed: did not send cancel request for your oldAppointment SHEE160624
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+QUEA150624 ||SHEE150624 ||MTLA160624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA swapAppointment  | RequestParameters:  oldAppointmentID: QUEA160724 oldAppointmentType: Surgeon newAppointmentID: SHEE160624 newAppointmentType: Surgeon  | ServerResponse: Failed: You QUEP1234 Are Not Registered in QUEA160724
+DATE: 2024-03-03 05:22:27 PM UserID: QUEP1234 | RequestType:  CORBA getBookingSchedule  | RequestParameters: null | ServerResponse: Physician:
+QUEA150624 ||SHEE150624 ||MTLA160624 ||
+---------------------------------------------------------------
+Surgeon:
+SHEE160624 ||
+---------------------------------------------------------------
+Dental:
+
+---------------------------------------------------------------
+
